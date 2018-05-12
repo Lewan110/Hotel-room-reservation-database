@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="26DECD12-57D1-928D-09FC-977315CF9D4D" name="client_reservation">
+<sourceDDLFile>create.sql</sourceDDLFile>
+<createdBy>Lewan</createdBy>
+<createdTime>2018-05-12 10:19:17 UTC</createdTime>
+<ownerDesignName>hotel</ownerDesignName>
+<importedID>FA830C3D-5B92-AD70-FC5D-D8331A9E0EF8</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="pesel" id="A3AC495E-7730-951C-FFED-9C8588E9E7E1">
+<sourceDDLFile>create.sql</sourceDDLFile>
+<createdBy>Lewan</createdBy>
+<createdTime>2018-05-12 10:19:17 UTC</createdTime>
+<ownerDesignName>hotel</ownerDesignName>
+<importedID>ADA9ED52-F3CA-BA2D-4736-7F58525CF2FC</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>2704391C-9CF3-D4F0-920E-F74B8EDA0B17</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9FE9142C-AB76-7215-FDD2-A6ABA868B037" referredColumn="0155F3F6-3465-617E-35BE-7096439F5B11"/>
+</associations>
+</Column>
+<Column name="reservation_id" id="93382567-1BAD-914C-384B-99868C85F7CF">
+<sourceDDLFile>create.sql</sourceDDLFile>
+<createdBy>Lewan</createdBy>
+<createdTime>2018-05-12 10:19:17 UTC</createdTime>
+<ownerDesignName>hotel</ownerDesignName>
+<importedID>66D6077E-63CD-D26B-CA42-788E0B577F03</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>CB7FDB59-9B8E-CCF1-F07F-E1C1B11BAC0A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="86C2C160-9C71-294A-F093-6F2FC96D5AE7" referredColumn="F455632C-2F61-904B-C688-60E503DFC4EF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="60273EA9-FB81-5E18-FD85-32170ED1AD94" name="client_reservation_pk">
+<sourceDDLFile>create.sql</sourceDDLFile>
+<createdBy>Lewan</createdBy>
+<createdTime>2018-05-12 10:19:17 UTC</createdTime>
+<ownerDesignName>hotel</ownerDesignName>
+<importedID>28339687-7051-1E06-A0A1-492094CA3B7E</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A3AC495E-7730-951C-FFED-9C8588E9E7E1"/>
+<colUsage columnID="93382567-1BAD-914C-384B-99868C85F7CF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="020FEDCF-1DC4-931B-FD83-88F08271991F" name="client_fk">
+<createdBy>Lewan</createdBy>
+<createdTime>2018-05-12 10:19:17 UTC</createdTime>
+<ownerDesignName>hotel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A3AC495E-7730-951C-FFED-9C8588E9E7E1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E73A63B3-C21E-844C-4282-A5581C45C127" name="reservation_fk">
+<createdBy>Lewan</createdBy>
+<createdTime>2018-05-12 10:19:17 UTC</createdTime>
+<ownerDesignName>hotel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="93382567-1BAD-914C-384B-99868C85F7CF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

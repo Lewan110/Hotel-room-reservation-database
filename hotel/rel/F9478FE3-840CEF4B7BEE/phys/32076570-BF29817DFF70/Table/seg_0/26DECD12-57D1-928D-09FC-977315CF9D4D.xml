@@ -1,0 +1,43 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="client_reservation" directorySegmentName="seg_0" id="26DECD12-57D1-928D-09FC-977315CF9D4D">
+<createdBy>Lewan</createdBy>
+<createdTime>2018-05-12 10:19:13 UTC</createdTime>
+<ownerDesignName>hotel</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="reservation_id" id="93382567-1BAD-914C-384B-99868C85F7CF">
+<createdBy>Lewan</createdBy>
+<createdTime>2018-05-12 10:19:13 UTC</createdTime>
+<ownerDesignName>hotel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="pesel" id="A3AC495E-7730-951C-FFED-9C8588E9E7E1">
+<createdBy>Lewan</createdBy>
+<createdTime>2018-05-12 10:19:13 UTC</createdTime>
+<ownerDesignName>hotel</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="client_fk" id="020FEDCF-1DC4-931B-FD83-88F08271991F">
+<createdBy>Lewan</createdBy>
+<createdTime>2018-05-12 10:19:13 UTC</createdTime>
+<ownerDesignName>hotel</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="reservation_fk" id="E73A63B3-C21E-844C-4282-A5581C45C127">
+<createdBy>Lewan</createdBy>
+<createdTime>2018-05-12 10:19:13 UTC</createdTime>
+<ownerDesignName>hotel</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="client_reservation_pk" id="60273EA9-FB81-5E18-FD85-32170ED1AD94">
+<createdBy>Lewan</createdBy>
+<createdTime>2018-05-12 10:19:13 UTC</createdTime>
+<ownerDesignName>hotel</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

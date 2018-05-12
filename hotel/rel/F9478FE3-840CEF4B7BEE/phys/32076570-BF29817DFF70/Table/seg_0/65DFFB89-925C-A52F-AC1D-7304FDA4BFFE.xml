@@ -1,0 +1,38 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="CLIENT_SUMMARY" directorySegmentName="seg_0" id="65DFFB89-925C-A52F-AC1D-7304FDA4BFFE">
+<createdBy>Lewan</createdBy>
+<createdTime>2018-05-12 10:19:13 UTC</createdTime>
+<ownerDesignName>hotel</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="N_O_VISITS" id="0441313B-8295-1117-5879-EF77FF033140">
+<createdBy>Lewan</createdBy>
+<createdTime>2018-05-12 10:19:13 UTC</createdTime>
+<ownerDesignName>hotel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PESEL" id="759D4F01-65FD-9980-07CF-BF268887EB85">
+<createdBy>Lewan</createdBy>
+<createdTime>2018-05-12 10:19:13 UTC</createdTime>
+<ownerDesignName>hotel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TIME_OF_VISITS" id="AACAB0A0-FD3E-0EAA-F3B9-AE668B5357CB">
+<createdBy>Lewan</createdBy>
+<createdTime>2018-05-12 10:19:13 UTC</createdTime>
+<ownerDesignName>hotel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FIRSTNAME" id="AE6CAEF2-8023-C6EC-3F49-B18E7528E009">
+<createdBy>Lewan</createdBy>
+<createdTime>2018-05-12 10:19:13 UTC</createdTime>
+<ownerDesignName>hotel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LASTNAME" id="F5D97081-793A-A1CB-F9DE-958199CEC84E">
+<createdBy>Lewan</createdBy>
+<createdTime>2018-05-12 10:19:13 UTC</createdTime>
+<ownerDesignName>hotel</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+</TableProxyOraclev11g>

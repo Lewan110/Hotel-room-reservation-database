@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="65DFFB89-925C-A52F-AC1D-7304FDA4BFFE" name="CLIENT_SUMMARY">
+<sourceDDLFile>create.sql</sourceDDLFile>
+<createdBy>Lewan</createdBy>
+<createdTime>2018-05-12 10:19:17 UTC</createdTime>
+<ownerDesignName>hotel</ownerDesignName>
+<importedID>882DB092-F03D-FDED-3A0F-7DA5CCB96987</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PESEL" id="759D4F01-65FD-9980-07CF-BF268887EB85">
+<sourceDDLFile>create.sql</sourceDDLFile>
+<createdBy>Lewan</createdBy>
+<createdTime>2018-05-12 10:19:17 UTC</createdTime>
+<ownerDesignName>hotel</ownerDesignName>
+<importedID>63772442-39C4-636D-4756-260B2A9CCF7E</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>6D41B88D-1798-BF3B-3008-42B601785F6A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FIRSTNAME" id="AE6CAEF2-8023-C6EC-3F49-B18E7528E009">
+<sourceDDLFile>create.sql</sourceDDLFile>
+<createdBy>Lewan</createdBy>
+<createdTime>2018-05-12 10:19:17 UTC</createdTime>
+<ownerDesignName>hotel</ownerDesignName>
+<importedID>EDC9041C-6E3E-77AA-7A96-345D9A24955B</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>38C3BF25-DCAF-8051-9E63-971DB28F4907</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LASTNAME" id="F5D97081-793A-A1CB-F9DE-958199CEC84E">
+<sourceDDLFile>create.sql</sourceDDLFile>
+<createdBy>Lewan</createdBy>
+<createdTime>2018-05-12 10:19:17 UTC</createdTime>
+<ownerDesignName>hotel</ownerDesignName>
+<importedID>5A5920FD-3B36-5A49-8A0B-960FCC0FF3E9</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>38C3BF25-DCAF-8051-9E63-971DB28F4907</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="N_O_VISITS" id="0441313B-8295-1117-5879-EF77FF033140">
+<sourceDDLFile>create.sql</sourceDDLFile>
+<createdBy>Lewan</createdBy>
+<createdTime>2018-05-12 10:19:17 UTC</createdTime>
+<ownerDesignName>hotel</ownerDesignName>
+<importedID>8345B42E-CCFA-5BD5-0724-7B1160B911F9</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>82B97CFD-8DB2-10E5-8091-EA215DC24CCA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIME_OF_VISITS" id="AACAB0A0-FD3E-0EAA-F3B9-AE668B5357CB">
+<sourceDDLFile>create.sql</sourceDDLFile>
+<createdBy>Lewan</createdBy>
+<createdTime>2018-05-12 10:19:17 UTC</createdTime>
+<ownerDesignName>hotel</ownerDesignName>
+<importedID>CE7DACC7-1812-D535-FA81-0E2D4015A51A</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>82B97CFD-8DB2-10E5-8091-EA215DC24CCA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

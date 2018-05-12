@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DB833C78-6B63-0B5A-EBB5-CED3B2E8B8BF" name="clients">
+<sourceDDLFile>create.sql</sourceDDLFile>
+<createdBy>Lewan</createdBy>
+<createdTime>2018-05-12 10:19:17 UTC</createdTime>
+<ownerDesignName>hotel</ownerDesignName>
+<importedID>2DC638C9-57D4-C230-6D69-86A5BF32CC09</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="pesel" id="0155F3F6-3465-617E-35BE-7096439F5B11">
+<sourceDDLFile>create.sql</sourceDDLFile>
+<createdBy>Lewan</createdBy>
+<createdTime>2018-05-12 10:19:17 UTC</createdTime>
+<ownerDesignName>hotel</ownerDesignName>
+<importedID>5737D98C-6CF9-B98B-09DB-91B580350191</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>2704391C-9CF3-D4F0-920E-F74B8EDA0B17</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="first_name" id="01B7032B-2982-5835-46D0-31BC725881DB">
+<sourceDDLFile>create.sql</sourceDDLFile>
+<createdBy>Lewan</createdBy>
+<createdTime>2018-05-12 10:19:17 UTC</createdTime>
+<ownerDesignName>hotel</ownerDesignName>
+<importedID>7B47A82D-F111-9FC4-6277-BEB66C0127EB</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>38C3BF25-DCAF-8051-9E63-971DB28F4907</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="last_name" id="BD36FE49-0B0D-AB72-CAE5-FABF8C0DBE83">
+<sourceDDLFile>create.sql</sourceDDLFile>
+<createdBy>Lewan</createdBy>
+<createdTime>2018-05-12 10:19:17 UTC</createdTime>
+<ownerDesignName>hotel</ownerDesignName>
+<importedID>791BBB61-279D-A42E-1904-35CF1C619C10</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>131F5C3F-203A-8DD2-4243-BCEFD6F92E15</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telephone" id="8502D0D4-B7D1-5BE9-26B1-891E65043590">
+<sourceDDLFile>create.sql</sourceDDLFile>
+<createdBy>Lewan</createdBy>
+<createdTime>2018-05-12 10:19:17 UTC</createdTime>
+<ownerDesignName>hotel</ownerDesignName>
+<importedID>0FCFED59-FC25-76E1-029E-2A3F3C08E00B</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>8B82EAB1-1138-3F01-FCC6-845F49A49D4C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2043BDB8-590C-771C-6D73-7595245DDB5D" name="clients_pk">
+<sourceDDLFile>create.sql</sourceDDLFile>
+<createdBy>Lewan</createdBy>
+<createdTime>2018-05-12 10:19:17 UTC</createdTime>
+<ownerDesignName>hotel</ownerDesignName>
+<importedID>82406192-0041-53BF-FAA7-2E92925AEFBC</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0155F3F6-3465-617E-35BE-7096439F5B11"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

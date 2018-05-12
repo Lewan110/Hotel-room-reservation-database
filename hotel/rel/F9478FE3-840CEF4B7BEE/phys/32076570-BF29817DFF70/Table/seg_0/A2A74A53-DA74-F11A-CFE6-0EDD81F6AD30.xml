@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="rooms" directorySegmentName="seg_0" id="A2A74A53-DA74-F11A-CFE6-0EDD81F6AD30">
+<createdBy>Lewan</createdBy>
+<createdTime>2018-05-12 10:19:13 UTC</createdTime>
+<ownerDesignName>hotel</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="room_category" id="4F32E84A-FFDB-67A3-556D-E3E203383634">
+<createdBy>Lewan</createdBy>
+<createdTime>2018-05-12 10:19:13 UTC</createdTime>
+<ownerDesignName>hotel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="capacity" id="AB796E46-61BF-02CE-BC63-F394901F8A5D">
+<createdBy>Lewan</createdBy>
+<createdTime>2018-05-12 10:19:13 UTC</createdTime>
+<ownerDesignName>hotel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="price_per_day" id="DD2C2F4B-9231-6248-E00B-AB5BD73C5F21">
+<createdBy>Lewan</createdBy>
+<createdTime>2018-05-12 10:19:13 UTC</createdTime>
+<ownerDesignName>hotel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="room_id" id="E9A94B98-C571-C1DF-A128-B701F63205E7">
+<createdBy>Lewan</createdBy>
+<createdTime>2018-05-12 10:19:13 UTC</createdTime>
+<ownerDesignName>hotel</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="room_category_fk" id="243CE714-5CC1-0379-8CC9-5AB2243BDECC">
+<createdBy>Lewan</createdBy>
+<createdTime>2018-05-12 10:19:13 UTC</createdTime>
+<ownerDesignName>hotel</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="room_pk" id="F0E22D8D-98F2-D8B7-837A-6DF409BBC4CB">
+<createdBy>Lewan</createdBy>
+<createdTime>2018-05-12 10:19:13 UTC</createdTime>
+<ownerDesignName>hotel</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

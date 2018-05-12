@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="reservations" directorySegmentName="seg_0" id="DB7D8442-B21F-2CB5-C32A-74943BD15DBA">
+<createdBy>Lewan</createdBy>
+<createdTime>2018-05-12 10:19:13 UTC</createdTime>
+<ownerDesignName>hotel</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="date_of_purchase" id="04BF9C6C-0378-52F0-D18A-8B3991392ADA">
+<createdBy>Lewan</createdBy>
+<createdTime>2018-05-12 10:19:13 UTC</createdTime>
+<ownerDesignName>hotel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="date_of_reservation" id="61E95BEE-3309-4229-7445-045C58A1C4D3">
+<createdBy>Lewan</createdBy>
+<createdTime>2018-05-12 10:19:13 UTC</createdTime>
+<ownerDesignName>hotel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="status" id="6C07F52E-B463-9586-57C5-86D58A411E18">
+<createdBy>Lewan</createdBy>
+<createdTime>2018-05-12 10:19:13 UTC</createdTime>
+<ownerDesignName>hotel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ending" id="95291496-B983-6E22-C3FF-F70C243F4416">
+<createdBy>Lewan</createdBy>
+<createdTime>2018-05-12 10:19:13 UTC</createdTime>
+<ownerDesignName>hotel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="beginning" id="AD2F5022-FC03-658B-719B-BFA47997BF55">
+<createdBy>Lewan</createdBy>
+<createdTime>2018-05-12 10:19:13 UTC</createdTime>
+<ownerDesignName>hotel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="room_id" id="B436E0D5-3C2B-AC0F-C506-1C6D69E4C501">
+<createdBy>Lewan</createdBy>
+<createdTime>2018-05-12 10:19:13 UTC</createdTime>
+<ownerDesignName>hotel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="reservation_id" id="F455632C-2F61-904B-C688-60E503DFC4EF">
+<createdBy>Lewan</createdBy>
+<createdTime>2018-05-12 10:19:13 UTC</createdTime>
+<ownerDesignName>hotel</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="reservations_rooms_fk" id="12C169B5-C866-5EDC-50FD-8D723D6A6E47">
+<createdBy>Lewan</createdBy>
+<createdTime>2018-05-12 10:19:13 UTC</createdTime>
+<ownerDesignName>hotel</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="reservation_pk" id="09979747-755E-4CB5-AF42-D840771DC127">
+<createdBy>Lewan</createdBy>
+<createdTime>2018-05-12 10:19:13 UTC</createdTime>
+<ownerDesignName>hotel</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

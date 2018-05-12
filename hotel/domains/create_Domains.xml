@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DomainFile class="oracle.dbtools.crest.model.design.DomainFileWrapper" fileName="create_Domains">
+   <domains>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_100" id="131F5C3F-203A-8DD2-4243-BCEFD6F92E15">
+         <createdBy>Lewan</createdBy>
+         <createdTime>2018-05-12 10:19:17 UTC</createdTime>
+         <ownerDesignName>hotel</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>100</dataTypeSize>
+         <fileName>create_Domains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="NUMERIC_11_0_0" id="2704391C-9CF3-D4F0-920E-F74B8EDA0B17">
+         <createdBy>Lewan</createdBy>
+         <createdTime>2018-05-12 10:19:17 UTC</createdTime>
+         <ownerDesignName>hotel</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>11</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>0</dataTypeSize>
+         <fileName>create_Domains</fileName>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_50" id="38C3BF25-DCAF-8051-9E63-971DB28F4907">
+         <createdBy>Lewan</createdBy>
+         <createdTime>2018-05-12 10:19:17 UTC</createdTime>
+         <ownerDesignName>hotel</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>50</dataTypeSize>
+         <fileName>create_Domains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="Date_0_0_0" id="64FD16BE-686B-B279-3028-67A0620B5FC9">
+         <createdBy>Lewan</createdBy>
+         <createdTime>2018-05-12 10:19:17 UTC</createdTime>
+         <ownerDesignName>hotel</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <fileName>create_Domains</fileName>
+         <logicalDatatype>LOGDT007</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_10" id="675DB3B5-6C0C-71CB-C221-2B87F76BA216">
+         <createdBy>Lewan</createdBy>
+         <createdTime>2018-05-12 10:19:17 UTC</createdTime>
+         <ownerDesignName>hotel</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>10</dataTypeSize>
+         <fileName>create_Domains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_13" id="6D41B88D-1798-BF3B-3008-42B601785F6A">
+         <createdBy>Lewan</createdBy>
+         <createdTime>2018-05-12 10:19:17 UTC</createdTime>
+         <ownerDesignName>hotel</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>13</dataTypeSize>
+         <fileName>create_Domains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_200" id="73431661-4010-DFA9-1839-389230D5D011">
+         <createdBy>Lewan</createdBy>
+         <createdTime>2018-05-12 10:19:17 UTC</createdTime>
+         <ownerDesignName>hotel</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>200</dataTypeSize>
+         <fileName>create_Domains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="NUMERIC_0_0_0" id="82B97CFD-8DB2-10E5-8091-EA215DC24CCA">
+         <createdBy>Lewan</createdBy>
+         <createdTime>2018-05-12 10:19:17 UTC</createdTime>
+         <ownerDesignName>hotel</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <fileName>create_Domains</fileName>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_15" id="8B82EAB1-1138-3F01-FCC6-845F49A49D4C">
+         <createdBy>Lewan</createdBy>
+         <createdTime>2018-05-12 10:19:17 UTC</createdTime>
+         <ownerDesignName>hotel</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>15</dataTypeSize>
+         <fileName>create_Domains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="NUMERIC_10_0_0" id="9DD87EC2-D336-65E6-961C-3BDD8A558C45">
+         <createdBy>Lewan</createdBy>
+         <createdTime>2018-05-12 10:19:17 UTC</createdTime>
+         <ownerDesignName>hotel</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>10</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>0</dataTypeSize>
+         <fileName>create_Domains</fileName>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="Integer_0_0_0" id="CB7FDB59-9B8E-CCF1-F07F-E1C1B11BAC0A">
+         <createdBy>Lewan</createdBy>
+         <createdTime>2018-05-12 10:19:17 UTC</createdTime>
+         <ownerDesignName>hotel</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <fileName>create_Domains</fileName>
+         <logicalDatatype>LOGDT011</logicalDatatype>
+      </Domain>
+   </domains>
+</DomainFile>

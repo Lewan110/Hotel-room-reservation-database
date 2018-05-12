@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="hotel" id="044691E5-C0D3-E607-E868-67321435968B" version="3.5">
+<createdBy>Lewan</createdBy>
+<createdTime>2018-05-12 10:17:08 UTC</createdTime>
+<ownerDesignName>hotel</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>044691E5-C0D3-E607-E868-67321435968B</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="710E2528-14A3-2F1B-B580-A4BEAA3B7C7F">
+<designStoragePath>C:\create</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>
