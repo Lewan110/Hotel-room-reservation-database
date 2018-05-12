@@ -1,3 +1,5 @@
+# hotel room reservation database
+
 Practice chalange - the aim is to create hotel room reservation database according to this requirements:
 
 -information about guests should be found, information about rooms divided into categories, reservations(ordered on type of room and qssigned for specyfic type of room).
