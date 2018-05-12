@@ -42,6 +42,35 @@ END;
 /
 ALTER TRIGGER "SYSTEM"."RESERVATION_ID_SEQ" ENABLE;
 --------------------------------------------------------
+--  DDL for Trigger RESERVATION_ID_SEQ
+--------------------------------------------------------
+CREATE OR REPLACE TRIGGER update_client_summary AFTER
+    INSERT OR UPDATE ON reservations
+    FOR EACH ROW
+DECLARE
+    p_pesel   number;
+BEGIN
+    IF
+        (:new.status = 'completed' )
+    THEN
+        SELECT
+            c.pesel
+        INTO p_pesel
+        FROM
+            clients c
+            JOIN client_reservation cr ON c.pesel = cr.pesel
+        WHERE
+            cr.reservation_id =:new.reservation_id
+            AND ROWNUM = 1;
+
+        UPDATE client_summary
+        SET
+            n_o_visits = n_o_visits + 1,
+            time_of_visits = time_of_visits + (:new.ending -:new.beginning );
+
+    END IF;
+END;
+--------------------------------------------------------
 --  DDL for Procedure ADD_RESERVATION
 --------------------------------------------------------
 set define off;
