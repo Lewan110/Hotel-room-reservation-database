@@ -29,6 +29,10 @@ INSERT INTO clients (pesel,first_name,last_name,telephone) VALUES ('22555148815'
 INSERT INTO clients (pesel,first_name,last_name,telephone) VALUES ('64679734877','Phillip','Carl','5576122207');
 INSERT INTO clients (pesel,first_name,last_name,telephone) VALUES ('67762629746','April','Ezekiel','5349690957');
 
+insert into room_category values(1,'vip','vip');
+insert into room_category values(2,'standard','standard');
+insert into room_category values(3,'exclusive','exclusive');
+
 insert into rooms values(1,3,1000,1);
 insert into rooms values(2,3,1000,1);
 INSERT INTO rooms (room_id,capacity,price_per_day,room_category) VALUES ('4','3','106','3');
@@ -49,6 +53,4 @@ INSERT INTO rooms (room_id,capacity,price_per_day,room_category) VALUES ('18','6
 INSERT INTO rooms (room_id,capacity,price_per_day,room_category) VALUES ('19','4','635','1');
 INSERT INTO rooms (room_id,capacity,price_per_day,room_category) VALUES ('20','4','975','3');
 
-insert into room_category values(1,'vip','vip');
-insert into room_category values(2,'standard','standard');
-insert into room_category values(3,'exclusive','exclusive');
+
