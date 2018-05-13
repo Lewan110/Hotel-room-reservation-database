@@ -1,15 +1,14 @@
-
 --------------------------------------------------------
 --  DDL for Sequence RESERVATION_SEQ
 --------------------------------------------------------
 
-   CREATE SEQUENCE  "SYSTEM"."RESERVATION_SEQ"  MINVALUE 1 MAXVALUE 9999999999999999999999999999 INCREMENT BY 1 START WITH 181 CACHE 20 NOORDER  NOCYCLE ;
+   CREATE SEQUENCE  RESERVATION_SEQ  MINVALUE 1 MAXVALUE 9999999999999999999999999999 INCREMENT BY 1 START WITH 181 CACHE 20 NOORDER  NOCYCLE ;
 
 --------------------------------------------------------
 --  DDL for View CLIENT_RESERVATIONS
 --------------------------------------------------------
 
-  CREATE OR REPLACE FORCE VIEW "SYSTEM"."CLIENT_RESERVATIONS" ("PESEL", "FIRST_NAME", "LAST_NAME", "RESERVATION_ID", "BEGINNING", "ENDING", "ROOM_ID", "CAPACITY") AS 
+  CREATE OR REPLACE FORCE VIEW CLIENT_RESERVATIONS ("PESEL", "FIRST_NAME", "LAST_NAME", "RESERVATION_ID", "BEGINNING", "ENDING", "ROOM_ID", "CAPACITY") AS 
   SELECT
     c.pesel,
     c.first_name,
@@ -31,7 +30,7 @@ ORDER BY
 --  DDL for Trigger RESERVATION_ID_SEQ
 --------------------------------------------------------
 
-  CREATE OR REPLACE TRIGGER "SYSTEM"."RESERVATION_ID_SEQ" 
+  CREATE OR REPLACE TRIGGER RESERVATION_ID_SEQ 
   BEFORE INSERT ON reservations
   FOR EACH ROW
 BEGIN
@@ -40,7 +39,7 @@ BEGIN
     FROM dual;
 END;
 /
-ALTER TRIGGER "SYSTEM"."RESERVATION_ID_SEQ" ENABLE;
+ALTER TRIGGER RESERVATION_ID_SEQ ENABLE;
 --------------------------------------------------------
 --  DDL for Trigger RESERVATION_ID_SEQ
 --------------------------------------------------------
@@ -75,7 +74,7 @@ END;
 --------------------------------------------------------
 set define off;
 
-  CREATE OR REPLACE PROCEDURE "SYSTEM"."ADD_RESERVATION" 
+  CREATE OR REPLACE PROCEDURE ADD_RESERVATION
 (p_pesel IN number)
 is
 
@@ -94,7 +93,7 @@ end;
 --------------------------------------------------------
 set define off;
 
-  CREATE OR REPLACE PROCEDURE "SYSTEM"."CLIENT_VISITS" (
+  CREATE OR REPLACE PROCEDURE CLIENT_VISITS (
     p_pesel IN VARCHAR2
 ) IS
 
@@ -143,7 +142,7 @@ END;
 --------------------------------------------------------
 set define off;
 
-  CREATE OR REPLACE PROCEDURE "SYSTEM"."RANDOM_RESERVATIONS" (
+  CREATE OR REPLACE PROCEDURE RANDOM_RESERVATIONS (
     range IN NUMBER
 ) IS
 
@@ -213,7 +212,7 @@ END;
 --  DDL for Package CLIENT_SUPPORT
 --------------------------------------------------------
 
-  CREATE OR REPLACE PACKAGE "SYSTEM"."CLIENT_SUPPORT" IS
+  CREATE OR REPLACE PACKAGE CLIENT_SUPPORT IS
     
     PROCEDURE print_client (
         p_pesel VARCHAR2
@@ -233,7 +232,7 @@ END;
 --  DDL for Package ROOM_RESERVATION
 --------------------------------------------------------
 
-  CREATE OR REPLACE PACKAGE "SYSTEM"."ROOM_RESERVATION" IS
+  CREATE OR REPLACE PACKAGE ROOM_RESERVATION IS
     
     PROCEDURE add_reservation (
         p_pesel IN VARCHAR2
@@ -272,7 +271,7 @@ END;
 --  DDL for Package Body CLIENT_SUPPORT
 --------------------------------------------------------
 
-  CREATE OR REPLACE PACKAGE BODY "SYSTEM"."CLIENT_SUPPORT" IS
+  CREATE OR REPLACE PACKAGE BODY CLIENT_SUPPORT IS
 
     PROCEDURE print_client (
         p_pesel VARCHAR2
@@ -389,7 +388,7 @@ END;
 --  DDL for Package Body ROOM_RESERVATION
 --------------------------------------------------------
 
-  CREATE OR REPLACE PACKAGE BODY "SYSTEM"."ROOM_RESERVATION" IS
+  CREATE OR REPLACE PACKAGE BODY ROOM_RESERVATION IS
     
     procedure add_reservation(
     p_pesel IN VARCHAR2)
@@ -504,4 +503,3 @@ END;
         end;
 END;
 
-/
