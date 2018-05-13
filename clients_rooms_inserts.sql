@@ -48,3 +48,7 @@ INSERT INTO rooms (room_id,capacity,price_per_day,room_category) VALUES ('17','6
 INSERT INTO rooms (room_id,capacity,price_per_day,room_category) VALUES ('18','6','451','2');
 INSERT INTO rooms (room_id,capacity,price_per_day,room_category) VALUES ('19','4','635','1');
 INSERT INTO rooms (room_id,capacity,price_per_day,room_category) VALUES ('20','4','975','3');
+
+insert into room_category values(1,'vip','vip');
+insert into room_category values(2,'standard','standard');
+insert into room_category values(3,'exclusive','exclusive');
