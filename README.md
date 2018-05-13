@@ -4,7 +4,7 @@ Practice challenge - the aim is to create hotel room reservation database accord
 
   - database should contain information about guests, information about rooms divided into categories, reservations(ordered for type of room and assigned for specyfic type of room).
 
-  -based on this information we should be able to: make a reservation by assigning a free room according to guests expectations 
+  - based on this information we should be able to: make a reservation by assigning a free room according to guests expectations 
 
   - check how many times given person was guest
 
