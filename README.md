@@ -19,6 +19,6 @@ Practice challenge - the aim is to create hotel room reservation database accord
      - decline reservations
     -  issue the bill(granting him a discount if he is a frequent visitor)
   
--contains table summary which shows how many and how much client was visiting hotel.
+  - contains table summary which shows how many and how much client was visiting hotel.
 
 Simple visualization in Apex: https://apex.oracle.com/pls/apex/f?p=47013 login: employee password: sql
